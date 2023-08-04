@@ -1,0 +1,50 @@
+.activities {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.activity-content {
+  margin-bottom: 1.5rem;
+}
+
+.activity-image {
+  width: 80px;
+  height: 80px;
+}
+
+.main-activities {
+  background-color: lighten($grey, 58%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.benefits {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .activities-content {
+      margin: 2rem auto;
+      max-width: 1600px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+  .activity-content {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+  }
+
+  .activity-image {
+    width: 96px;
+    height: 96px;
+  }
+  .activity-text {
+    text-align: center;
+  }
+}
+

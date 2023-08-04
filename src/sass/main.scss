@@ -1,0 +1,24 @@
+// 1. Utils
+@import "./utils/color";
+// 1.1 Variables
+// 1.2 Functions
+// 1.3 Mixins
+// 1.4 Placholders
+
+// 2. Vendors
+@import "../../node_modules/bulma/bulma";
+// 3. Base
+@import "./base/base";
+// 4. Components
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/staffCard";
+@import "./components/activities";
+@import "./components/contact";
+
+@import "./components/about";
+// 5. Layouts
+
+// 6. Pages
+
+// 7. Themes

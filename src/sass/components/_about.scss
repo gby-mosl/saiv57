@@ -1,0 +1,11 @@
+.about {
+  &__content {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+  &__image {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}

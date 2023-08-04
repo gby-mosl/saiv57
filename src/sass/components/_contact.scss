@@ -1,0 +1,14 @@
+.contact {
+  max-width: 645px;
+  margin: 0 auto;
+}
+
+.input:focus, .textarea:focus {
+  border-color: $primary;
+  box-shadow: 0 0 0 0.05em rgba(255, 128, 25, 0.25);
+
+}
+
+.textarea {
+  resize: none;
+}
